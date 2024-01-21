@@ -1,0 +1,87 @@
+# Camden Sloan - CYB 220
+# This is a program to store new vehicle inventory and assist with monthly payments
+
+# Create variable of your favorite car brand
+brand = "Nissan"
+
+# Create list of 5 of their models from cheapest to most expensive
+models = ['Versa', 'Rogue', 'Pathfinder', 'Murano', 'Armada']
+
+# Append a 6th model to the list
+models.append('ARIYA')
+
+# Create list of 5 standard colors for all models
+colors = ['Red', 'Blue', 'Black', 'Gray', 'White']
+
+# Replace your last color with a different color
+colors[4] = 'Green'
+
+# Create variable of the current new year models
+current_year = 2024
+
+# Create MSRP constant number (not string) of each of the models
+msrps = [16290, 27910, 35980, 38090, 55620, 43190]
+
+# Create a constant number (not string) for total months in 4yr, 5yr, and 6yr loans
+FOUR_YEAR = 48
+FIVE_YEAR = 60
+SIX_YEAR = 72
+
+# Create a variable for the guest's name. Be courteous in your upcoming messages :)
+guest_name = 'Joe'
+
+# Create message variable (with f-string) welcoming customer to your new car store
+message = f"Welcome to the shop, {guest_name}!"
+
+# Create awesome banner with your brand/name/dealership, however you want to welcome customers
+banner = " _   _                   _   _  _                               _ \n" \
+         "| \ | |                 | \ | |(_)                             | |\n" \
+         "|  \| |  ___ __      __ |  \| | _  ___  ___   __ _  _ __   ___ | |\n" \
+         "| . ` | / _ \\ \ /\ / / | . ` || |/ __|/ __| / _` || '_ \ / __|| |\n" \
+         "| |\  ||  __/ \ V  V /  | |\  || |\__ \\__ \| (_| || | | |\__ \|_|\n" \
+         "\_| \_/ \___|  \_/\_/   \_| \_/|_||___/|___/ \__,_||_| |_||___/(_)\n" \
+         "                                                                  "
+
+# Print awesome banner and welcome message
+print(banner)
+print(f"{message}\n")
+
+# Using title methods, print the number vehicles in alphabetical order, with the year and available colors.
+models.sort()
+print(f"{current_year} {models[0].title()} - Colors: {colors[0]}, {colors[1]}, {colors[2]}, {colors[3]}, {colors[4]}")
+print(f"{current_year} {models[1].title()} - Colors: {colors[0]}, {colors[1]}, {colors[2]}, {colors[3]}, {colors[4]}")
+print(f"{current_year} {models[2].title()} - Colors: {colors[0]}, {colors[1]}, {colors[2]}, {colors[3]}, {colors[4]}")
+print(f"{current_year} {models[3].title()} - Colors: {colors[0]}, {colors[1]}, {colors[2]}, {colors[3]}, {colors[4]}")
+print(f"{current_year} {models[4].title()} - Colors: {colors[0]}, {colors[1]}, {colors[2]}, {colors[3]}, {colors[4]}")
+
+# Create a variable that calculates a monthly payment (no interest) for 5yr/60months for the first vehicle
+payment_plan = msrps[0] / 60
+
+# and print that in a nice, kind message. Don't be rude/pushy to the customer :)
+original_models = ['Versa', 'Rogue', 'Pathfinder', 'Murano', 'Armada', 'ARIYA']
+print(f"\nThis brand new {original_models[0]} could be yours for only ${payment_plan}/month over the course of 5 years!")
+
+# Do the same thing, but give them 4yr and 6yr options for the same vehicle
+print(f"Over the course of 4 years, it will only cost ${payment_plan * 5 / 4}/month or ${payment_plan * 5 / 6}/month for 6 years!")
+
+# Lastly, give them a 5yr option for each of the other vehicles, just to see if they are interested
+print("Over the course of 5 years:")
+print(f"The {original_models[1]} is ${(msrps[1] / 60)}/month")
+print(f"The {original_models[2]} is ${msrps[2] / 60}/month")
+print(f"The {original_models[3]} is ${msrps[3] / 60}/month")
+print(f"The {original_models[4]} is ${msrps[4] / 60}/month")
+print(f"The {original_models[5]} is ${msrps[5] / 60}/month")
+
+# Feature 1: Create a list of customer ratings for different cars
+ratings = [4.7, 4.8, 4.6, 4.4, 4.9, 4.9]
+
+# Feature 2: Display ratings to customers
+print(f"\nThe {original_models[0]} is rated {ratings[0]} out of 5 stars")
+print(f"The {original_models[1]} is rated {ratings[1]} out of 5 stars")
+print(f"The {original_models[2]} is rated {ratings[2]} out of 5 stars")
+print(f"The {original_models[3]} is rated {ratings[3]} out of 5 stars")
+print(f"The {original_models[4]} is rated {ratings[4]} out of 5 stars")
+print(f"The {original_models[5]} is rated {ratings[5]} out of 5 stars")
+
+# Feature 3: Cool car banner
+print("\n  ______\n /|_||_\`.__\n(   _    _ _\\\n=`-(_)--(_)-'")
