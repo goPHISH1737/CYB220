@@ -1,6 +1,0 @@
-pizzas = ['pepperoni', 'hawaiian', 'barbeque']
-
-for pizza in pizzas:
-    print(f"{pizza.title()} is delicious!")
-
-print("Pizza is the best!")
