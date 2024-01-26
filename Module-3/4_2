@@ -1,0 +1,6 @@
+animals = ['cheetah', 'falcon', 'pronghorn']
+
+for animal in animals:
+    print(f"A {animal} is a fast animal")
+
+print("All of these animals are fast!")
