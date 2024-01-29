@@ -1,0 +1,13 @@
+fruits = ['apple', 'banana', 'cherry', 'dragonfruit']
+
+if 'apple' in fruits:
+    print("You really like apples!")
+if 'pear' in fruits:
+    print("You really like pears!")
+if 'grape' in fruits:
+    print("You really like grapes!")
+if 'banana' in fruits:
+    print("You really like bananas!")
+if 'cherry' in fruits:
+    print("You really like cherries!")
+    
