@@ -1,0 +1,26 @@
+name = 'Camden'
+
+print(name == 'Camden')
+print(name != 'Camden')
+
+print(name.lower() == 'camden')
+print(name == name.lower())
+
+grade = 87
+
+print(grade == 87)
+print(grade > 87)
+print(grade < 86)
+print(grade >= 90)
+print(grade <= 80)
+
+print(name == 'Camden' and grade == 87)
+print(name == 'Charlie' and grade >= 90)
+
+foods = ['apple', 'banana', 'grape']
+
+print('apple' in foods)
+print('cherry' in foods)
+
+print('banana' not in foods)
+print('mango' not in foods)
