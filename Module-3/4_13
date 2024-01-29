@@ -1,0 +1,9 @@
+foods = ('roll', 'salad', 'hamburger', 'cake', 'strawberry')
+
+for food in foods:
+    print(food)
+
+foods = ('roll', 'salad', 'hamburger', 'donut', 'apple')
+
+for food in foods:
+    print(food)
