@@ -1,0 +1,36 @@
+first_class = 'history'
+first_grade = 95
+second_class = 'chemistry'
+second_grade = 87
+third_class = 'calculus'
+third_grade = 70
+
+print("Is first_class == 'history'? I predict True")
+print(first_class == 'history')
+
+print("\nIs first_grade >= 90? I predict True")
+print(first_grade >= 90)
+
+print("\nIs second_class == 'chemistry'? I predict True")
+print(second_class == 'chemistry')
+
+print("\nIs second_grade >= 80? I predict True")
+print(first_grade >= 80)
+
+print("\nIs third_class == 'calculus'? I predict True")
+print(third_class == 'calculus')
+
+print("\nIs third_grade >= 80? I predict False")
+print(third_grade >= 80)
+
+print("\nIs first_class != 'history'? I predict False")
+print(first_class != 'history')
+
+print("\nIs second_grade > 87? I predict False")
+print(second_grade > 87)
+
+print("\nIs second_class == 'chemisry'? I predict False")
+print(second_class == 'chemisry')
+
+print("\nIs third_grade < 60? I predict False")
+print(third_grade < 60)
