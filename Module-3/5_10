@@ -1,0 +1,12 @@
+current_users = ['camden', 'charlie', 'liam', 'charles', 'josiah']
+new_users = ['grayson', 'CAMDEN', 'Aaron', 'kyle', 'Liam']
+
+lower_current = []
+for user in current_users:
+    lower_current.append(user.lower())
+
+for user in new_users:
+    if user.lower() in lower_current:
+        print(f"{user}, enter a new username")
+    else:
+        print(f"{user}, that username is available")
