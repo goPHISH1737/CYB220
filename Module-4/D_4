@@ -1,0 +1,12 @@
+definitions = {
+    'python': 'A high-level programming language that emphasizes code readability.',
+    'variable': 'A container for some amount of data which can be changed.',
+    'list': 'An ordered sequence of data values.',
+    'method': 'A function that belongs to an object.',
+    'if_statement': 'A test that executes a certain block of code if a condition is met.',
+    'dictionary': 'An ordered sequence of key-value pairs.',
+    'function': 'A block of code that returns only when called.',
+}
+
+for key, value in definitions.items():
+    print(f"{key.title()}\n\t{value}")
