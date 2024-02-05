@@ -1,0 +1,11 @@
+money_str = input("Enter how much money you have: ")
+money = int(money_str)
+
+if 75 <= money <= 150:
+    print("You can buy an i3 processor.")
+elif 150 < money <= 250:
+    print("You can buy an i5 processor.")
+elif 250 < money <= 350:
+    print("You can buy an i7 processor.")
+elif money > 350:
+    print("You can buy an i9 processor.")
