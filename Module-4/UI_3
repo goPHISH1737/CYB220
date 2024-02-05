@@ -1,0 +1,9 @@
+word = ''
+
+while word != 'stop':
+    number = int(input("Enter a number to check its parity: "))
+    if number % 2 == 0:
+        print(f"{number} is even")
+    else:
+        print(f"{number} is odd")
+    word = input("Type 'stop' to exit, or press enter to continue: ")
