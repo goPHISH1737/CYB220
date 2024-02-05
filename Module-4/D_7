@@ -1,0 +1,11 @@
+anderson = {'anderson': 28106, 'belton': 4134, 'honea path': 3686, 'iva': 1015, 'pelzer': 1344}
+greenville = {'greenville': 70720, 'greer': 35308, 'mauldin': 24724, 'simpsonville': 18238, 'travelers rest': 7788}
+pickens = {'clemson': 17681, 'easley': 23422, 'liberty': 3366, 'pickens': 3126, 'central': 5159}
+cherokee = {'chesnee': 868, 'gaffney': 12539, 'blacksburg': 1548, 'smyrna': 45, 'ezell': 0}
+charleston = {'charleston': 150227, 'folly beach': 2617, 'goose creek': 45946, 'isle of palms': 4133, 'awendaw': 1294}
+
+sc_counties = [anderson, greenville, pickens, cherokee, charleston]
+
+for county in sc_counties:
+    for key, value in county.items():
+        print(f"In {key.title()}, the population is {value}.")
