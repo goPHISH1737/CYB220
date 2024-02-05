@@ -1,0 +1,17 @@
+favorite_flavors = {}
+valid_flavors = ['edubuntu', 'kubuntu', 'lubuntu', 'budgie', 'cinnamon', 'kylin', 'mate', 'studio', 'unity', 'xubuntu']
+asking = True
+
+while asking:
+    user = input('What is your username: ')
+    fav = input('What is your favorite Ubuntu flavor: ')
+    if fav.lower() in valid_flavors:
+        favorite_flavors[user] = fav.lower()
+    else:
+        print(f"Sorry, that is not a legitimate Ubuntu flavor.\nThe flavors are: {valid_flavors}")
+    if input("Type 'quit' to finish, or press enter to continue: ") == 'quit':
+        asking = False
+
+print("\nThe results are in:")
+for key, value in favorite_flavors.items():
+    print(f"{key} prefers {value}.")
