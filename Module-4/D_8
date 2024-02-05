@@ -1,0 +1,10 @@
+sc_counties = {
+    'anderson': ['anderson', 'belton', 'williamston'],
+    'greenville': ['greenville', 'mauldin', 'simpsonville'],
+    'pickens': ['central', 'pickens', 'liberty'],
+    'cherokee': ['gaffney', 'east gaffney', 'blacksburg'],
+    'charleston': ['mount pleasant', 'james island', 'hollywood']
+}
+
+for key, value in sc_counties.items():
+    print(f"In {key.title()}, the largest cities are {value[0].title()}, {value[1].title()}, and {value[2].title()}.")
