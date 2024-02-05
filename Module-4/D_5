@@ -1,0 +1,8 @@
+sc_counties = {
+    'Anderson': 'Anderson',
+    'Cherokee': 'Gaffney',
+    'Aiken': 'Aiken',
+    'Greenville': 'Greenville',
+    'Charleston': 'Charleston',
+    'Oconee': 'Walhalla'
+}
