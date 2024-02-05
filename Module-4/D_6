@@ -1,0 +1,18 @@
+sc_counties = {
+    'Anderson': 'Anderson',
+    'Cherokee': 'Gaffney',
+    'Aiken': 'Aiken',
+    'Greenville': 'Greenville',
+    'Charleston': 'Charleston',
+    'Oconee': 'Walhalla'
+}
+
+county_list = {
+    'Anderson', 'Cherokee', 'Aiken', 'Greenville', 'Charleston', 'Oconee', 'Florence', 'Chester', 'Dillon', 'Calhoun'
+}
+
+for county in county_list:
+    if county in sc_counties:
+        print(f"{county} is in our dictionary, and the capitol is {sc_counties[county]}.")
+    else:
+        print(f"{county} is not in our dictionary. We will add this county shortly. Thanks!")
