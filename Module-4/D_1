@@ -1,0 +1,14 @@
+person = {
+    'f_name': 'Camden',
+    'l_name': 'Sloan',
+    'hometown': 'Shelby',
+    'current_city': 'Anderson',
+    'username': 'csloan04'
+}
+
+print(person)
+print(person['f_name'])
+print(person['l_name'])
+print(person['hometown'])
+print(person['current_city'])
+print(person['username'])
