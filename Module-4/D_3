@@ -1,0 +1,17 @@
+definitions = {
+    'python': 'A high-level programming language that emphasizes code readability.',
+    'variable': 'A container for some amount of data which can be changed.',
+    'list': 'An ordered sequence of data values.',
+    'method': 'A function that belongs to an object.',
+    'if_statement': 'A test that executes a certain block of code if a condition is met.',
+    'dictionary': 'An ordered sequence of key-value pairs.',
+    'function': 'A block of code that returns only when called.',
+}
+
+print(f"Python\n\t{definitions['python']}")
+print(f"Variable\n\t{definitions['variable']}")
+print(f"List\n\t{definitions['list']}")
+print(f"Method\n\t{definitions['method']}")
+print(f"If Statement\n\t{definitions['if_statement']}")
+print(f"Dictionary\n\t{definitions['dictionary']}")
+print(f"Function\n\t{definitions['function']}")
