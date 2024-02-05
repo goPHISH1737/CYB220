@@ -1,0 +1,10 @@
+person = {
+    'f_name': 'Camden',
+    'l_name': 'Sloan',
+    'hometown': 'Shelby',
+    'current_city': 'Anderson',
+    'username': 'csloan04'
+}
+
+print(f"The person's name is {person['f_name']} {person['l_name']}, with a username of {person['username']}.")
+print(f"Their hometown is {person['hometown']}, while their current city is {person['current_city']}.")
