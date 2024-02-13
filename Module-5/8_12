@@ -1,0 +1,9 @@
+def make_sandwich(*toppings):
+    print("These are the toppings on your sandwich:")
+    for topping in toppings:
+        print(f"- {topping}")
+
+
+make_sandwich('ham')
+make_sandwich('ham', 'cheese')
+make_sandwich('ham', 'turkey', 'bacon', 'roast beef', 'mayo')
