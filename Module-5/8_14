@@ -1,0 +1,8 @@
+def make_car(make, model, **car_info):
+    car_info['first_name'] = make
+    car_info['last_name'] = model
+    return car_info
+
+
+car = make_car('nissan', 'versa', year=2014, color='blue')
+print(car)
