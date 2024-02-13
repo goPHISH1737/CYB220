@@ -1,0 +1,18 @@
+def make_album(name, title, songs=None):
+    album = {'artist': name, 'title': title}
+    if songs:
+        album['songs'] = songs
+    return album
+
+while True:
+    print("Enter q at any time to quit")
+
+    title = input("Enter an album title: ")
+    if title == 'q':
+        break
+
+    name = input("Enter the album artist: ")
+    if name == 'q':
+        break
+
+    print(make_album(name, title))
