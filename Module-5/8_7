@@ -1,0 +1,10 @@
+def make_album(name, title, songs=None):
+    album = {'artist': name, 'title': title}
+    if songs:
+        album['songs'] = songs
+    return album
+
+
+print(make_album('Beatles', 'Abbey Road'))
+print(make_album('Michael Jackson', 'Thriller'))
+print(make_album('Pink Floyd', 'Dark Side of the Moon', 10))
