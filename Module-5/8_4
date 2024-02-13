@@ -1,0 +1,8 @@
+def make_shirt(size='large', text='I love Python'):
+    """Print shirt details"""
+    print(f"This is a {size} shirt with the text: {text}")
+
+
+make_shirt()
+make_shirt(size='medium')
+make_shirt(text='Carolina Panthers')
