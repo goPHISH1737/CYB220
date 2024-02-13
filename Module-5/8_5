@@ -1,0 +1,7 @@
+def describe_city(city, country='Greece'):
+    print(f"{city.title()} is in {country.title()}.")
+
+
+describe_city('Madrid', 'Spain')
+describe_city('Athens')
+describe_city('Mexico City', 'Mexico')
